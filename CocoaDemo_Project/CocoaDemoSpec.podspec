@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "13.0"
 
-  spec.source = { :git => "https://github.com/Wasim2708/Project/tree/main/CocoaDemo_Project" , :tag  => "#{spec.version}"}
+  spec.source = { :git => "https://github.com/Wasim2708/Project.git" , :tag  => "#{spec.version}"}
   #spec.source  =  { :svn => 'file:' + __dir__ + "/CocoaDemo_Project/" }
 
   spec.source_files  = "CocoaDemo/**/*.{h,swift}"
