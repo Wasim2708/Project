@@ -13,7 +13,8 @@ Pod::Spec.new do |spec|
                    CocoaDemo is the demo for creating our own new Cocoapod
                    DESC
 
-  spec.homepage     = "/Users/wasim-zstk238/Desktop/"
+  spec.homepage =  "https://github.com/Wasim2708/Project"
+  #spec.homepage     = "/Users/wasim-zstk238/Desktop/"
 
 
 
@@ -26,9 +27,10 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "13.0"
 
-  spec.source  =  { :svn => 'file:' + __dir__ + "/CocoaDemo_Project/" }
+  spec.source = { :git => "https://github.com/Wasim2708/Project.git" , :tag  => "#{spec.version}"}
+  #spec.source  =  { :svn => 'file:' + __dir__ + "/CocoaDemo_Project/" }
 
-  spec.source_files  = "CocoaDemo/**/*.{h,swift}"
+  spec.source_files  = "CocoaDemo_Project/**/*.{h,swift}"
 
 
 end
